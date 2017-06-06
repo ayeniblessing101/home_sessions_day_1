@@ -1,4 +1,4 @@
-function Car(name, wheels, make, model, year, status)
+function Car(name, wheels, make, model, year, status, sold_on)
 {
 	this.name = name;
 	this.wheels = 4;
@@ -8,10 +8,10 @@ function Car(name, wheels, make, model, year, status)
 	this.sold_on = sold_on;
 	this.status = 'packed';
 	
-	if(name == undefined) {
+	if(name === undefined) {
 		this.name = 'Mercedez Benz';
 	}
-	if(model == undefined) {
+	if(model === undefined) {
 		this.model = 'A-Class';
 	}
 }
@@ -46,7 +46,7 @@ Car.prototype.speed = function() {
 	this.status = 'speeding';
 }
 
-function Truck(name, wheels, make, model, year, status)
+function Truck(name, wheels, make, model, year, status, sold_on)
 {
 	this.name = name;
 	this.wheels = 4;
@@ -59,4 +59,4 @@ function Truck(name, wheels, make, model, year, status)
 
 Truck.prototype = new Car();
 var truck = new Truck();
-truck.status();
+t
