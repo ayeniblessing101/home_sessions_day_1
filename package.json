@@ -1,0 +1,24 @@
+{
+  "name": "home_session_day_1",
+  "version": "1.0.0",
+  "description": "fizzBuzz and aritGeo",
+  "main": "coding_lab_2/fizzBuzz.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ayeniblessing101"
+  },
+  "keywords": [
+    "fizzBuzz",
+    "aritGeo"
+  ],
+  "author": "Ayeni Blessing",
+  "license": "MIT",
+  "dependencies": {
+    "jasmine": "^2.6.0"
+  }
+}

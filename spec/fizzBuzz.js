@@ -1,3 +1,5 @@
+const fizzBuzz = require(../coding_lab_2/fizzBuzz.js);
+
 describe("Fizz Buzz tests ", function() {
 
   it("should return `Fizz` for number divisible by 3", function() {
