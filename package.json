@@ -6,7 +6,7 @@
   "dependencies": {},
   "devDependencies": {},
   "scripts": {
-    "test": "jasmine"
+    "test": "node spec/fizzBuzzSpec.js"
   },
   "repository": {
     "type": "git",
